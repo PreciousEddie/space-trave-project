@@ -26,7 +26,7 @@ function AppRoute() {
         element={ <Spacecraft /> }
       />
       <Route
-        path="/planet"
+        path="/planets"
         element={ <Planets /> }
       />
       <Route

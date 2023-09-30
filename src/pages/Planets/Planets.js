@@ -16,7 +16,7 @@ function Planets() {
 
     if (!isErrorPlanets && !isErrorSpacecrafts) {
       for (const planet of planets) {
-        planet.spacecraft = [];
+        planet.spacecrafts = [];
         for (const spacecraft of spacecrafts) {
           if (planet.id === spacecraft.currentLocation) {
             planet.spacecrafts.push(spacecraft);
